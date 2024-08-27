@@ -1,87 +1,93 @@
+#first-information,
+#header {
+    background-color: #1f2937;
+    display: flex
+}
+
+.card img,
+img {
+    border-radius: 50%
+}
+
+#footer,
+#fourth-information .reach-me-bottom,
+#fourth-information .text-title,
+.description,
+.header-text,
+.name {
+    font-family: Roboto;
+    color: #f9faf8
+}
+
+#content,
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 #header {
     padding: 16px 64px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #1F2937;
+    align-items: center
 }
 
 .header-text {
-    color: #F9FAF8;
-    font-family: 'Roboto';
     font-weight: 800;
-    font-size: 16px;
+    font-size: 16px
 }
 
 .header-links {
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto';
+    font-family: Roboto;
     gap: 16px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .header-links a {
     text-decoration: none;
-    color: #E5E7EB;
-    margin: 0%;
+    color: #e5e7eb;
+    margin: 0;
     padding: 0;
-    gap: 16px;
-}
-
-#content {
-    display: flex;
-    flex-direction: column;
+    gap: 16px
 }
 
 #first-information {
     padding: 64px;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #1F2937;
+    justify-content: space-between
 }
 
 .name {
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Roboto';
-    font-size: 32px;
-    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    font-size: 32px
 }
 
 .description {
-    margin: 8px 0px;
+    margin: 8px 0;
     width: 400px;
     font-weight: 400;
     font-size: 16px;
-    text-wrap: pretty;
-    font-family: 'Roboto';
-    color: #F9FAF8;
+    text-wrap: pretty
 }
 
 .reach-me {
     margin-top: 8px;
     padding: 8px 16px;
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: #3882f6;
+    color: #e5e7eb;
     font-size: 14px;
     border-radius: 16px;
     border-style: none;
     font-weight: 800;
-    outline: none;
+    outline: 0
 }
 
 img {
     width: 300px;
-    border-radius: 50%;
     height: auto;
-    object-fit: scale-down;
+    object-fit: scale-down
 }
 
 #second-information {
@@ -89,14 +95,14 @@ img {
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    margin-bottom: 32px;
+    margin-bottom: 32px
 }
 
 #second-information h2 {
     font-size: 48px;
     font-weight: 800;
-    font-family: 'Roboto';
-    color: #1F2937;
+    font-family: Roboto;
+    color: #1f2937
 }
 
 .cards {
@@ -104,28 +110,27 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 32px
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
+    font-family: Roboto;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .card a {
-    color: #1F2937;
-    text-decoration: none;
+    color: #1f2937;
+    text-decoration: none
 }
 
 .card img {
     width: auto;
     height: 50px;
     max-width: 80px;
-    border-radius: 50%;
-    border-color: #3882F6;
+    border-color: #3882f6
 }
 
 #third-information {
@@ -133,9 +138,9 @@ img {
     padding: 32px;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
-    font-family: 'Roboto';
-    color: #1F2937;
+    background-color: #e5e7eb;
+    font-family: Roboto;
+    color: #1f2937
 }
 
 #third-information p {
@@ -144,11 +149,11 @@ img {
     font-weight: 100;
     text-align: start;
     display: inline;
-    font-size: 36px;
+    font-size: 36px
 }
 
 #fourth-information {
-    background-color: #3882F6;
+    background-color: #3882f6;
     margin: 64px;
     display: flex;
     flex-direction: row;
@@ -156,44 +161,37 @@ img {
     border-radius: 10px;
     justify-content: space-around;
     gap: 32px;
-    font-family: 'Roboto';
+    font-family: Roboto
 }
 
 #fourth-information .text-container {
     padding: 32px;
-    background: #3882F6;
+    background: #3882f6;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 #fourth-information .text-title {
-    font-weight: bold;
-    font-family: 'Roboto';
-    color: #F9FAF8;
+    font-weight: 700
 }
 
 #fourth-information .text-description {
     font-weight: 300;
-    font-family: 'Roboto';
-    color: #F9FAF8;
+    font-family: Roboto;
+    color: #f9faf8
 }
 
 #fourth-information .reach-me-bottom {
-    font-family: 'Roboto';
-    color: #F9FAF8;
-    background-color: #3882F6;
-    border-color: #F9FAF8;
-    outline: none;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    outline: 0;
     padding: 4px 16px;
-    border-radius: 8px;
-
+    border-radius: 8px
 }
 
 #footer {
     padding: 16px;
-    background: #1F2937;
+    background: #1f2937;
     text-align: center;
-    font-size: 12px;
-    font-family: 'Roboto';
-    color: #F9FAF8;
+    font-size: 12px
 }
